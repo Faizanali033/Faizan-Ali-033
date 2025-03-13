@@ -1,0 +1,20 @@
+fruits_tuple = ('apple', 'banana', 'cherry')
+print(fruits_tuple[0])  
+print(fruits_tuple[1]) 
+print(fruits_tuple[-1])
+print(fruits_tuple[-2])  
+tuple1=(1,2,3)
+tuple2=(4,5,6)
+combine_tuple=tuple1+tuple2
+print(fruits_tuple[-2])
+tuple1 = ('hello',)
+repeated_tuple = tuple1 * 5
+print(repeated_tuple)
+numbers = (0, 1, 2, 3, 4, 5, 6)
+print(numbers[1:4])
+print(numbers[-1:3])
+print(numbers[4:])
+
+fruits_tuple=('banana','apple','orange','cherry','banana')
+print(fruits_tuple.count('banana'))
+print(fruits_tuple.index('cherry'))
